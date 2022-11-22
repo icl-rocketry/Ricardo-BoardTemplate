@@ -351,7 +351,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Actuators Board.kicad_pro",
+    "filename": "RicardoTemplate.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -440,6 +440,10 @@
     [
       "00000000-0000-0000-0000-000061925999",
       "USB -> UART"
+    ],
+    [
+      "48a413b4-b7c2-44ac-971c-583c31b73475",
+      "Power"
     ]
   ],
   "text_variables": {}
