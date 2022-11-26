@@ -2784,14 +2784,8 @@
     (path "/48a413b4-b7c2-44ac-971c-583c31b73475/5cc37a1d-271b-4ac9-be2a-c7b7299ba177"
       (reference "#PWR046") (unit 1) (value "GND") (footprint "")
     )
-    (path "/48a413b4-b7c2-44ac-971c-583c31b73475/5018fdc8-f7f7-4367-a36e-e2e159ebf82e"
-      (reference "#PWR047") (unit 1) (value "GNDA") (footprint "")
-    )
     (path "/48a413b4-b7c2-44ac-971c-583c31b73475/7af19544-550c-41e8-b1a1-e003ac8266b0"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/48a413b4-b7c2-44ac-971c-583c31b73475/e825de4b-8589-41c3-b626-420423fa6c32"
-      (reference "#PWR050") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/48a413b4-b7c2-44ac-971c-583c31b73475/e48b03d7-507a-49e6-8f1d-dc61aa61954a"
       (reference "#PWR051") (unit 1) (value "GND") (footprint "")
@@ -2801,9 +2795,6 @@
     )
     (path "/48a413b4-b7c2-44ac-971c-583c31b73475/a8a64c12-e727-42fe-84c9-147f489b1a0a"
       (reference "#PWR053") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/48a413b4-b7c2-44ac-971c-583c31b73475/736f77d1-adc6-4a48-9c9e-97a22b72d935"
-      (reference "#PWR054") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/48a413b4-b7c2-44ac-971c-583c31b73475/4cfe7de4-d9cf-4262-a8c0-423ce6aa3c30"
       (reference "#PWR055") (unit 1) (value "GND") (footprint "")
@@ -2822,9 +2813,6 @@
     )
     (path "/48a413b4-b7c2-44ac-971c-583c31b73475/6bbd9af4-0f09-48e9-8b94-03eed7a05e8b"
       (reference "#PWR060") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/48a413b4-b7c2-44ac-971c-583c31b73475/b7d2156a-cc5e-4810-9503-30da8f4d3925"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005dc1f7e5"
       (reference "3V3LED1") (unit 1) (value "3V3LED") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -2948,9 +2936,6 @@
     )
     (path "/00000000-0000-0000-0000-000061942b9a/deb2b25e-9fb0-448e-88c5-95a67db1d371"
       (reference "JP1") (unit 1) (value "TermJP") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/48a413b4-b7c2-44ac-971c-583c31b73475/968a7b99-e5c5-415a-b27d-6c83f5015b35"
-      (reference "JP2") (unit 1) (value "SolderJumper_2_Open") (footprint "")
     )
     (path "/c6e654d3-0d45-4a74-8557-db0239fe22b2"
       (reference "L1") (unit 1) (value "2.0nH") (footprint "Inductor_SMD:L_0402_1005Metric")
