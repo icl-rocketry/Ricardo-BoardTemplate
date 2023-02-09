@@ -1516,11 +1516,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3d517e64-c57c-4b63-ac24-3a91be578050)
   )
-  (text "TBD C and R value to get\na total series impedance\nof 50 ohms at 2.4GHz\n"
-    (at 44.45 55.88 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 62562e6c-1a02-499e-bf60-ca7df37d5ed9)
-  )
   (text "CAN + is CAN High\nCAN - is CAN LOW\nNamed with a + and - as it\nis a KiCad requirement to\nroute differential tracks\n"
     (at 110.49 167.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3019,7 +3014,7 @@
       (reference "J1") (unit 1) (value "RBUS") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061925999/00000000-0000-0000-0000-000061988c49"
-      (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_GCT_USB4085")
+      (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G")
     )
     (path "/00000000-0000-0000-0000-000061942b9a/deb2b25e-9fb0-448e-88c5-95a67db1d371"
       (reference "JP1") (unit 1) (value "TermJP") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -3090,9 +3085,6 @@
     (path "/00000000-0000-0000-0000-000061925999/00000000-0000-0000-0000-000061ab87f3"
       (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/00000000-0000-0000-0000-000061925999/00000000-0000-0000-0000-000061ab9568"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/48a413b4-b7c2-44ac-971c-583c31b73475/268b5def-07ff-4842-bca3-d3886d833ee9"
       (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
@@ -3124,7 +3116,7 @@
       (reference "U2") (unit 1) (value "SN65HVD230") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/48a413b4-b7c2-44ac-971c-583c31b73475/067fcbdc-a037-45c7-a11e-fa748d280ce6"
-      (reference "U3") (unit 1) (value "LM66200DRLR") (footprint "SOTFL50P160X60-8N")
+      (reference "U3") (unit 1) (value "LM66200DRLR") (footprint "iclr:SOTFL50P160X60-8N")
     )
     (path "/48a413b4-b7c2-44ac-971c-583c31b73475/9e553dc0-c0ec-45f7-ad87-8ecb647a8da4"
       (reference "U4") (unit 1) (value "MAX77827AEFD+T") (footprint "iclr:CONV_MAX77827AEFD+T")

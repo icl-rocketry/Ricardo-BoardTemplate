@@ -914,7 +914,7 @@
     (uuid 067fcbdc-a037-45c7-a11e-fa748d280ce6)
     (property "Reference" "U3" (id 0) (at 63.5 30.641 0))
     (property "Value" "LM66200DRLR" (id 1) (at 63.5 33.1779 0))
-    (property "Footprint" "SOTFL50P160X60-8N" (id 2) (at 76.2 34.29 0)
+    (property "Footprint" "iclr:SOTFL50P160X60-8N" (id 2) (at 76.2 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/gpn/lm66200" (id 3) (at 76.2 36.83 0)
