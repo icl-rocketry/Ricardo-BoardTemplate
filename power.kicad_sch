@@ -1082,31 +1082,6 @@
     )
   )
 
-  (symbol (lib_id "power:VBUS") (at 191.77 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1aed480d-632a-46cd-8a88-18039e9b8e94)
-    (property "Reference" "#PWR046" (at 191.77 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 191.77 37.0642 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 191.77 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 191.77 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f3894a1c-3b8c-4d72-9b64-643987d8b954))
-    (instances
-      (project "RicardoTemplate"
-        (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR046") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 184.15 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ba472dc-82f1-494b-93be-f4a7d3a53013)
@@ -1357,31 +1332,6 @@
       (project "RicardoTemplate"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
           (reference "#PWR049") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 191.77 40.64 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6b63f8e0-062c-443a-b458-4bc92c46512c)
-    (property "Reference" "TP7" (at 185.42 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 190.5 43.1769 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 186.69 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 186.69 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 813c74e9-b7ba-4329-b429-e281baff9143))
-    (instances
-      (project "RicardoTemplate"
-        (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "TP7") (unit 1)
         )
       )
     )
