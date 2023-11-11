@@ -2841,7 +2841,7 @@
     (property "Value" "ESP32-S3" (at 102.87 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm" (at 102.87 153.67 0)
+    (property "Footprint" "iclr:QFN40P700X700X90-57N" (at 102.87 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf" (at 102.87 156.21 0)
