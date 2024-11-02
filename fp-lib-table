@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "iclr")(type "KiCad")(uri "${ICLR_HW}/fp/iclr.pretty")(options "")(descr ""))
+)
